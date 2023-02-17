@@ -4,6 +4,9 @@ require('dotenv/config');
 
 const userRoutes = require('./routes/user')
 
+const postModel = require('./models/post')
+const userModel = require('./models/user')
+
 const app = express();
 
 app.use(cors());
